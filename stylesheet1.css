@@ -1,6 +1,6 @@
 body {
 	background-color: black; 
-	color: black;
+	color: white;
 	font-family: arial;
 	margin: 0;
 	padding: 20px;
@@ -8,7 +8,7 @@ body {
 
 header{
 	width: 100%;
-	color: gold;
+	color: ;
 	border: solid;
 	border-color: gold;
 	text-align: center;
@@ -31,8 +31,6 @@ header{
 	background-color: black;
 	color: black;
 }
-
-
 
 
 #bar {

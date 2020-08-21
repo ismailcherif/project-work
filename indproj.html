@@ -14,15 +14,15 @@
    	<h1> Website Name</h1>
    	<h2> welcome to the website </h2>
    </div>
-   <div> 
+   <div id="division" hidden> 
    	<input type="" name="">
    	 <br>
    	 <input type="" name="">
    	 <br>
    	 <input type="" name="">
    	<br>
-   	<button>GET STARTED</button> 
    </div>
+   	<button id="show">GET STARTED</button>
    	<div>
    	  <input type="" name="">
    	 <br>
@@ -31,10 +31,14 @@
    	<button>LOG IN</button>
    </div>
 </section>
-
  <footer>
  	<h1>Footer</h1>
  </footer>
      <script type="text/javascript" src="jQuery.js"></script>
+     <script>
+     	$("#show").click(function(){
+     		$("#division").show()
+     	});
+     </script>
 </body>
 </html>

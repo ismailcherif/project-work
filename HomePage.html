@@ -2,7 +2,7 @@
 <html>
 <head>
  <title></title>
- <meta charset="utf-8"> <!-- to allow the website to read special leture -->
+ <meta charset="utf-8"> 
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
  <meta name=viewport content= "width=device-width, initial-scale=1.0" >
 </head>
@@ -15,32 +15,61 @@
      <li><a href="#about">About</a></li>
     </ul>
   </nav>
-  <header>Our Blog</header>
-  <div id="center">
-     <div class="left-colum">
-       <p>fgdgdrgsdffg
-       fgdfgfdgfdsgd
-       gdfggfbdfgdgadgdfgdad
-       dfgdagdafgadfgadgd
-       gsdfgfdsgsdgfdgsd</p>
+  <header>
+    <h1>Our Blog</h1>
+  </header>
+ 
+     <div class="right-column">
+       <img src="one-inch-punch.jpg">
+       <div class="divs"> 
+        <h1>Bruce Lee (Nov. 27th, 1940 - Jul. 20th, 1973),</h1>
+        <p>named Lee Jun-fan in Chinese, is a world famous Kung Fu master, a martial arts film actor and the founder of Jeet Kune Do. He made great contributions by introducing Chinese martial arts to the world. 
+        <br>
+        Because of his superb skills, he is called King of Kung Fu by Americans, Sage of Martial Arts by Japanese and Master of Fighting by Thais. Many great Chinese Kung Fu film shows of him were produced and up to today, Bruce Lee still has a great following.</p>
+      </div>
      </div>
-     <div class="right-colum">
-       <p>fgdgdrgsdffg
+    <div class="center">
+     <div class="divs">
+      <img src="shaolin-temple.jpg">
+       <h1>fgdgdrgsdffg
        fgdfgfdgfdsgd
        gdfggfbdfgdgadgdfgdad
        dfgdagdafgadfgadgd
-       gsdfgfdsgsdgfdgsd</p>
-       <p>fgdgdrgsdffg
-       fgdfgfdgfdsgd
-       gdfggfbdfgdgadgdfgdad
-       dfgdagdafgadfgadgd
-       gsdfgfdsgsdgfdgsd</p>
+       gsdfgfdsgsdgfdgsd</h1>
      </div>
+       <div class="divs"> 
+        <p>
+          <h1>Kung Fu</h1>
+            Kung Fu, an ancient sport popular in China, has a very long history, during which a variety of skills were created and massively improved. 
+          <br>
+          Originated from the hunting and defense needs in the primitive society (over 1.7 million years ago – 21st century BC), it at first only included some basic skills like cleaving, chopping, and stabbing. 
+          <br>
+        Later the system of Kung Fu formed and developed mainly as the fighting skills from the Xia Dynasty (21st - 17th century BC) to the Yuan Dynasty (1271 - 1368), and reached its peak during the Ming and Qing Dynasties (1368 - 1911). 
+        <br>
+      In modern times, it develops well and becomes not just martial skills or physical movement. It is also a way for keeping fit, entertainment, and performance.</p>
+      </div>
   </div>
+   <footer>
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
 
- <footer>
- 	<h1>Footer</h1>
- </footer>
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+   </footer>
      <script type="text/javascript" src="jQuery.js"></script>
+     <script>
+       function openForm() {
+    document.getElementById("myForm").style.display = "block";
+ }
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
 </body>
 </html>

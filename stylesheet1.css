@@ -59,24 +59,25 @@ li a {
 * {
 	box-sizing: border-box;
 }
+
 li a:hover {
   background-color: gold;
 }
-
+/*used to arange the id signup*/
 #signup {
 	text-align: center;
 	color: tomato;
 	padding: 250px;
 	padding-right: 100px;
 }
-
+/*used to arange the class div*/
 .divs {
 	padding: 20px 40px 20px 40px;
 	margin: 20px ;
 	background-color: gold;
 	color: black;
 }
-
+/*used to arange the class top*/
 .top{
 	text-align: center;
 	color: tomato;
@@ -84,7 +85,7 @@ li a:hover {
 	padding-right: 0px;
 
 }
-
+ /*used to arange the class div1*/
 .div1{
 	text-align: center;
 	color: tomato;
@@ -93,7 +94,7 @@ li a:hover {
     height: 550px;
     width: 550px;
 }
-
+/*used to arange the footer to the bottom*/
 footer{
 	color: gold;
 	border: solid;

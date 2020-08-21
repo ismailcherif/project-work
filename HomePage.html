@@ -3,7 +3,7 @@
 <head>
  <title></title>
  <meta charset="utf-8"> 
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet1.css">
  <meta name=viewport content= "width=device-width, initial-scale=1.0" >
 </head>
 <body>
@@ -47,13 +47,24 @@
       </div>
   </div>
    <footer>
-<div class="chat-popup" id="myForm">
-  
+    <div>
+     <div class="chat-popup" id="myForm">
+  <br>
+<div>
+  <input type="text" id="text">
+  <button id="send">send message</button>
+</div>
 </div>
    </footer>
      <script type="text/javascript" src="jQuery.js"></script>
+     <script type="text/javascript" src="javascriptmain.js"></script>
      <script>
-    
+    $(document).ready(function(){
+  $("#send").click(function(){
+    alert ($("#text").val())
+    $("#myForm").append("<b>hello</b>");
+  });
+});
 </script>
 </body>
 </html>

@@ -42,6 +42,12 @@ header{
 
 }
 
+.chat-popup{
+	background-color: white;
+	height: 150px;
+	width: 100px;
+}
+
 li {
   float: left;
 }
